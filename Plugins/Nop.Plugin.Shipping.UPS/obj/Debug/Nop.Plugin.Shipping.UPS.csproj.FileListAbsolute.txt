@@ -1,0 +1,10 @@
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Shipping.UPS\Views\ShippingUPS\Configure.cshtml
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Shipping.UPS\web.config
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Shipping.UPS\Description.txt
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Shipping.UPS\logo.jpg
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll.config
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.pdb
+C:\Users\Chris\Desktop\jenkins-labs-1\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.dll
+C:\Users\Chris\Desktop\jenkins-labs-1\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.pdb
+C:\Users\Chris\Desktop\jenkins-labs-1\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache

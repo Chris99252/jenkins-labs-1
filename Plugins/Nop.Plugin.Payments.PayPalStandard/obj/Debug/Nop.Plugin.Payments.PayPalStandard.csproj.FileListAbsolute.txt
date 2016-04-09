@@ -1,0 +1,11 @@
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentPayPalStandard\Configure.cshtml
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentPayPalStandard\PaymentInfo.cshtml
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\web.config
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Description.txt
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\logo.jpg
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll.config
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll
+C:\Users\Chris\Desktop\jenkins-labs-1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.pdb
+C:\Users\Chris\Desktop\jenkins-labs-1\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.dll
+C:\Users\Chris\Desktop\jenkins-labs-1\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.pdb
+C:\Users\Chris\Desktop\jenkins-labs-1\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csprojResolveAssemblyReference.cache

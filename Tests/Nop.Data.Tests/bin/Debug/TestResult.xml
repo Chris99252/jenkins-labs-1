@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="142" result="Passed" total="142" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.2.0.0" clr-version="4.0.30319.42000" start-time="2016-04-09 08:24:53Z" end-time="2016-04-09 08:28:24Z" duration="211.527574">
+  <command-line><![CDATA["C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe"  Nop.Data.Tests.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1236" name="C:\Users\Chris\Desktop\jenkins-labs-1\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll" fullname="C:\Users\Chris\Desktop\jenkins-labs-1\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll" runstate="Runnable" testcasecount="142" result="Passed" duration="211.436635" total="142" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="_PID" value="5964" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="Namespace" id="1-1237" name="Nop" fullname="Nop" runstate="Runnable" testcasecount="142" result="Passed" duration="211.408997" total="142" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="Namespace" id="1-1238" name="Data" fullname="Nop.Data" runstate="Runnable" testcasecount="142" result="Passed" duration="211.395605" total="142" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="Namespace" id="1-1239" name="Tests" fullname="Nop.Data.Tests" runstate="Runnable" testcasecount="142" result="Passed" duration="211.380418" total="142" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="Namespace" id="1-1253" name="Affiliates" fullname="Nop.Data.Tests.Affiliates" runstate="Runnable" testcasecount="1" result="Passed" duration="9.046469" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1079" name="AffiliatePersistenceTests" fullname="Nop.Data.Tests.Affiliates.AffiliatePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="9.042714" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1080" name="Can_save_and_load_affiliate" fullname="Nop.Data.Tests.Affiliates.AffiliatePersistenceTests.Can_save_and_load_affiliate" runstate="Runnable" result="Passed" duration="9.029252" asserts="7" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1251" name="Blogs" fullname="Nop.Data.Tests.Blogs" runstate="Runnable" testcasecount="2" result="Passed" duration="2.374275" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1066" name="BlogPostPersistenceTests" fullname="Nop.Data.Tests.Blogs.BlogPostPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.372636" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1067" name="Can_save_and_load_blogPost" fullname="Nop.Data.Tests.Blogs.BlogPostPersistenceTests.Can_save_and_load_blogPost" runstate="Runnable" result="Passed" duration="1.163097" asserts="16" />
+              <test-case id="1-1068" name="Can_save_and_load_blogPost_with_blogComments" fullname="Nop.Data.Tests.Blogs.BlogPostPersistenceTests.Can_save_and_load_blogPost_with_blogComments" runstate="Runnable" result="Passed" duration="1.207088" asserts="3" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1263" name="Catalog" fullname="Nop.Data.Tests.Catalog" runstate="Runnable" testcasecount="29" result="Passed" duration="39.614187" total="29" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1188" name="BackInStockSubscriptionPersistenceTests" fullname="Nop.Data.Tests.Catalog.BackInStockSubscriptionPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.756938" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1189" name="Can_save_and_load_backInStockSubscription" fullname="Nop.Data.Tests.Catalog.BackInStockSubscriptionPersistenceTests.Can_save_and_load_backInStockSubscription" runstate="Runnable" result="Passed" duration="1.755566" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1198" name="CategoryPersistenceTests" fullname="Nop.Data.Tests.Catalog.CategoryPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.599251" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1199" name="Can_save_and_load_category" fullname="Nop.Data.Tests.Catalog.CategoryPersistenceTests.Can_save_and_load_category" runstate="Runnable" result="Passed" duration="1.546847" asserts="21" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1186" name="CategoryTemplatePersistenceTests" fullname="Nop.Data.Tests.Catalog.CategoryTemplatePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.282840" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1187" name="Can_save_and_load_categoryTemplate" fullname="Nop.Data.Tests.Catalog.CategoryTemplatePersistenceTests.Can_save_and_load_categoryTemplate" runstate="Runnable" result="Passed" duration="1.280203" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1234" name="ManufacturerPersistenceTests" fullname="Nop.Data.Tests.Catalog.ManufacturerPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.336982" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1235" name="Can_save_and_load_manufacturer" fullname="Nop.Data.Tests.Catalog.ManufacturerPersistenceTests.Can_save_and_load_manufacturer" runstate="Runnable" result="Passed" duration="1.335712" asserts="18" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1190" name="ManufacturerTemplatePersistenceTests" fullname="Nop.Data.Tests.Catalog.ManufacturerTemplatePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.795534" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1191" name="Can_save_and_load_manufacturerTemplate" fullname="Nop.Data.Tests.Catalog.ManufacturerTemplatePersistenceTests.Can_save_and_load_manufacturerTemplate" runstate="Runnable" result="Passed" duration="1.793035" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1192" name="PredefinedProductAttributeValuePersistenceTests" fullname="Nop.Data.Tests.Catalog.PredefinedProductAttributeValuePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.210044" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1193" name="Can_save_and_load_predefinedProductAttributeValue" fullname="Nop.Data.Tests.Catalog.PredefinedProductAttributeValuePersistenceTests.Can_save_and_load_predefinedProductAttributeValue" runstate="Runnable" result="Passed" duration="1.205889" asserts="9" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1214" name="ProductAttributeCombinationPersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductAttributeCombinationPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.745885" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1215" name="Can_save_and_load_productAttributeCombination" fullname="Nop.Data.Tests.Catalog.ProductAttributeCombinationPersistenceTests.Can_save_and_load_productAttributeCombination" runstate="Runnable" result="Passed" duration="1.742390" asserts="9" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1216" name="ProductAttributeMappingPersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductAttributeMappingPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.177613" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1217" name="Can_save_and_load_productAttributeMapping" fullname="Nop.Data.Tests.Catalog.ProductAttributeMappingPersistenceTests.Can_save_and_load_productAttributeMapping" runstate="Runnable" result="Passed" duration="1.174748" asserts="14" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1218" name="ProductAttributePersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductAttributePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.028557" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1219" name="Can_save_and_load_productAttribute" fullname="Nop.Data.Tests.Catalog.ProductAttributePersistenceTests.Can_save_and_load_productAttribute" runstate="Runnable" result="Passed" duration="1.025713" asserts="3" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1212" name="ProductAttributeValuePersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductAttributeValuePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.053297" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1213" name="Can_save_and_load_productAttributeValue" fullname="Nop.Data.Tests.Catalog.ProductAttributeValuePersistenceTests.Can_save_and_load_productAttributeValue" runstate="Runnable" result="Passed" duration="1.052222" asserts="13" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1224" name="ProductCategoryPersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductCategoryPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.071714" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1225" name="Can_save_and_load_productCategory" fullname="Nop.Data.Tests.Catalog.ProductCategoryPersistenceTests.Can_save_and_load_productCategory" runstate="Runnable" result="Passed" duration="1.069942" asserts="7" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1222" name="ProductManufacturerPersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductManufacturerPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.058481" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1223" name="Can_save_and_load_productManufacturer" fullname="Nop.Data.Tests.Catalog.ProductManufacturerPersistenceTests.Can_save_and_load_productManufacturer" runstate="Runnable" result="Passed" duration="1.056452" asserts="7" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1226" name="ProductPersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductPersistenceTests" runstate="Runnable" testcasecount="7" result="Passed" duration="8.789806" total="7" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1227" name="Can_save_and_load_product" fullname="Nop.Data.Tests.Catalog.ProductPersistenceTests.Can_save_and_load_product" runstate="Runnable" result="Passed" duration="1.193777" asserts="105" />
+              <test-case id="1-1228" name="Can_save_and_load_product_with_productCategories" fullname="Nop.Data.Tests.Catalog.ProductPersistenceTests.Can_save_and_load_product_with_productCategories" runstate="Runnable" result="Passed" duration="1.270076" asserts="7" />
+              <test-case id="1-1229" name="Can_save_and_load_product_with_productManufacturers" fullname="Nop.Data.Tests.Catalog.ProductPersistenceTests.Can_save_and_load_product_with_productManufacturers" runstate="Runnable" result="Passed" duration="1.186922" asserts="7" />
+              <test-case id="1-1230" name="Can_save_and_load_product_with_productPictures" fullname="Nop.Data.Tests.Catalog.ProductPersistenceTests.Can_save_and_load_product_with_productPictures" runstate="Runnable" result="Passed" duration="1.792716" asserts="7" />
+              <test-case id="1-1231" name="Can_save_and_load_product_with_productTags" fullname="Nop.Data.Tests.Catalog.ProductPersistenceTests.Can_save_and_load_product_with_productTags" runstate="Runnable" result="Passed" duration="1.180132" asserts="5" />
+              <test-case id="1-1233" name="Can_save_and_load_product_with_productWarehouseInventory" fullname="Nop.Data.Tests.Catalog.ProductPersistenceTests.Can_save_and_load_product_with_productWarehouseInventory" runstate="Runnable" result="Passed" duration="1.062795" asserts="5" />
+              <test-case id="1-1232" name="Can_save_and_load_product_with_tierPrices" fullname="Nop.Data.Tests.Catalog.ProductPersistenceTests.Can_save_and_load_product_with_tierPrices" runstate="Runnable" result="Passed" duration="1.083863" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1220" name="ProductPicturePersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductPicturePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.041871" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1221" name="Can_save_and_load_productPicture" fullname="Nop.Data.Tests.Catalog.ProductPicturePersistenceTests.Can_save_and_load_productPicture" runstate="Runnable" result="Passed" duration="1.039243" asserts="6" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1205" name="ProductSpecificationAttributePersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductSpecificationAttributePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.168011" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1206" name="Can_save_and_load_productSpecificationAttribute" fullname="Nop.Data.Tests.Catalog.ProductSpecificationAttributePersistenceTests.Can_save_and_load_productSpecificationAttribute" runstate="Runnable" result="Passed" duration="1.165883" asserts="9" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1200" name="ProductTagPersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductTagPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.050843" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1201" name="Can_save_and_load_productTag" fullname="Nop.Data.Tests.Catalog.ProductTagPersistenceTests.Can_save_and_load_productTag" runstate="Runnable" result="Passed" duration="1.047653" asserts="2" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1196" name="ProductTemplatePersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductTemplatePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="3.013172" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1197" name="Can_save_and_load_productTemplate" fullname="Nop.Data.Tests.Catalog.ProductTemplatePersistenceTests.Can_save_and_load_productTemplate" runstate="Runnable" result="Passed" duration="3.010814" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1194" name="ProductWarehouseInventoryPersistenceTests" fullname="Nop.Data.Tests.Catalog.ProductWarehouseInventoryPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.123338" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1195" name="Can_save_and_load_productWarehouseInventory" fullname="Nop.Data.Tests.Catalog.ProductWarehouseInventoryPersistenceTests.Can_save_and_load_productWarehouseInventory" runstate="Runnable" result="Passed" duration="1.120942" asserts="7" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1207" name="SpecificationAttributeOptionPersistenceTests" fullname="Nop.Data.Tests.Catalog.SpecificationAttributeOptionPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.469027" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1208" name="Can_save_and_load_specificationAttributeOption" fullname="Nop.Data.Tests.Catalog.SpecificationAttributeOptionPersistenceTests.Can_save_and_load_specificationAttributeOption" runstate="Runnable" result="Passed" duration="1.465174" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1209" name="SpecificationAttributePersistenceTests" fullname="Nop.Data.Tests.Catalog.SpecificationAttributePersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.341226" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1210" name="Can_save_and_load_specificationAttribute" fullname="Nop.Data.Tests.Catalog.SpecificationAttributePersistenceTests.Can_save_and_load_specificationAttribute" runstate="Runnable" result="Passed" duration="0.954923" asserts="3" />
+              <test-case id="1-1211" name="Can_save_and_load_specificationAttribute_with_specificationAttributeOptions" fullname="Nop.Data.Tests.Catalog.SpecificationAttributePersistenceTests.Can_save_and_load_specificationAttribute_with_specificationAttributeOptions" runstate="Runnable" result="Passed" duration="1.376238" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1202" name="TierPricePersistenceTests" fullname="Nop.Data.Tests.Catalog.TierPricePersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="3.450006" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1203" name="Can_save_and_load_tierPrice" fullname="Nop.Data.Tests.Catalog.TierPricePersistenceTests.Can_save_and_load_tierPrice" runstate="Runnable" result="Passed" duration="1.656638" asserts="5" />
+              <test-case id="1-1204" name="Can_save_and_load_tierPriceWithCustomerRole" fullname="Nop.Data.Tests.Catalog.TierPricePersistenceTests.Can_save_and_load_tierPriceWithCustomerRole" runstate="Runnable" result="Passed" duration="1.788061" asserts="3" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1262" name="Common" fullname="Nop.Data.Tests.Common" runstate="Runnable" testcasecount="7" result="Passed" duration="9.026450" total="7" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1174" name="AddressAttributePersistenceTests" fullname="Nop.Data.Tests.Common.AddressAttributePersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.362179" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1175" name="Can_save_and_load_addressAttribute" fullname="Nop.Data.Tests.Common.AddressAttributePersistenceTests.Can_save_and_load_addressAttribute" runstate="Runnable" result="Passed" duration="1.216264" asserts="5" />
+              <test-case id="1-1176" name="Can_save_and_load_addressAttribute_with_values" fullname="Nop.Data.Tests.Common.AddressAttributePersistenceTests.Can_save_and_load_addressAttribute_with_values" runstate="Runnable" result="Passed" duration="1.141583" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1181" name="AddressPeristenceTests" fullname="Nop.Data.Tests.Common.AddressPeristenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.384161" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1182" name="Can_save_and_load_address" fullname="Nop.Data.Tests.Common.AddressPeristenceTests.Can_save_and_load_address" runstate="Runnable" result="Passed" duration="1.230505" asserts="15" />
+              <test-case id="1-1183" name="Can_save_and_load_address_with_stateProvince" fullname="Nop.Data.Tests.Common.AddressPeristenceTests.Can_save_and_load_address_with_stateProvince" runstate="Runnable" result="Passed" duration="1.149615" asserts="3" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1177" name="CheckoutAttributeValuePersistenceTests" fullname="Nop.Data.Tests.Common.CheckoutAttributeValuePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.603962" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1178" name="Can_save_and_load_addressAttributeValue" fullname="Nop.Data.Tests.Common.CheckoutAttributeValuePersistenceTests.Can_save_and_load_addressAttributeValue" runstate="Runnable" result="Passed" duration="1.600296" asserts="6" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1184" name="GenericAttributePersistenceTests" fullname="Nop.Data.Tests.Common.GenericAttributePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.192706" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1185" name="Can_save_and_load_genericAttribute" fullname="Nop.Data.Tests.Common.GenericAttributePersistenceTests.Can_save_and_load_genericAttribute" runstate="Runnable" result="Passed" duration="1.190385" asserts="6" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1179" name="SearchTermPeristenceTests" fullname="Nop.Data.Tests.Common.SearchTermPeristenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.478499" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1180" name="Can_save_and_load_searchTerm" fullname="Nop.Data.Tests.Common.SearchTermPeristenceTests.Can_save_and_load_searchTerm" runstate="Runnable" result="Passed" duration="1.473564" asserts="4" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1240" name="Configuration" fullname="Nop.Data.Tests.Configuration" runstate="Runnable" testcasecount="1" result="Passed" duration="1.355822" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1002" name="SettingPersistenceTests" fullname="Nop.Data.Tests.Configuration.SettingPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.354825" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1003" name="Can_save_and_load_setting" fullname="Nop.Data.Tests.Configuration.SettingPersistenceTests.Can_save_and_load_setting" runstate="Runnable" result="Passed" duration="1.352548" asserts="4" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1261" name="Customers" fullname="Nop.Data.Tests.Customers" runstate="Runnable" testcasecount="15" result="Passed" duration="24.352376" total="15" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1156" name="CheckoutAttributeValuePersistenceTests" fullname="Nop.Data.Tests.Customers.CheckoutAttributeValuePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.208763" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1157" name="Can_save_and_load_customerAttributeValue" fullname="Nop.Data.Tests.Customers.CheckoutAttributeValuePersistenceTests.Can_save_and_load_customerAttributeValue" runstate="Runnable" result="Passed" duration="1.207334" asserts="6" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1153" name="CustomerAttributePersistenceTests" fullname="Nop.Data.Tests.Customers.CustomerAttributePersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.516961" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1154" name="Can_save_and_load_customerAttribute" fullname="Nop.Data.Tests.Customers.CustomerAttributePersistenceTests.Can_save_and_load_customerAttribute" runstate="Runnable" result="Passed" duration="1.126576" asserts="5" />
+              <test-case id="1-1155" name="Can_save_and_load_customerAttribute_with_values" fullname="Nop.Data.Tests.Customers.CustomerAttributePersistenceTests.Can_save_and_load_customerAttribute_with_values" runstate="Runnable" result="Passed" duration="1.364505" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1166" name="CustomerPersistenceTests" fullname="Nop.Data.Tests.Customers.CustomerPersistenceTests" runstate="Runnable" testcasecount="7" result="Passed" duration="9.288072" total="7" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1172" name="Can_remove_a_customer_address" fullname="Nop.Data.Tests.Customers.CustomerPersistenceTests.Can_remove_a_customer_address" runstate="Runnable" result="Passed" duration="1.698428" asserts="5" />
+              <test-case id="1-1167" name="Can_save_and_load_customer" fullname="Nop.Data.Tests.Customers.CustomerPersistenceTests.Can_save_and_load_customer" runstate="Runnable" result="Passed" duration="1.173529" asserts="19" />
+              <test-case id="1-1170" name="Can_save_and_load_customer_with_address" fullname="Nop.Data.Tests.Customers.CustomerPersistenceTests.Can_save_and_load_customer_with_address" runstate="Runnable" result="Passed" duration="1.215584" asserts="3" />
+              <test-case id="1-1168" name="Can_save_and_load_customer_with_customerRoles" fullname="Nop.Data.Tests.Customers.CustomerPersistenceTests.Can_save_and_load_customer_with_customerRoles" runstate="Runnable" result="Passed" duration="1.156762" asserts="4" />
+              <test-case id="1-1169" name="Can_save_and_load_customer_with_externalAuthenticationRecord" fullname="Nop.Data.Tests.Customers.CustomerPersistenceTests.Can_save_and_load_customer_with_externalAuthenticationRecord" runstate="Runnable" result="Passed" duration="1.264878" asserts="4" />
+              <test-case id="1-1173" name="Can_save_and_load_customer_with_shopping_cart" fullname="Nop.Data.Tests.Customers.CustomerPersistenceTests.Can_save_and_load_customer_with_shopping_cart" runstate="Runnable" result="Passed" duration="1.193586" asserts="4" />
+              <test-case id="1-1171" name="Can_set_default_billing_and_shipping_address" fullname="Nop.Data.Tests.Customers.CustomerPersistenceTests.Can_set_default_billing_and_shipping_address" runstate="Runnable" result="Passed" duration="1.575263" asserts="6" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1163" name="CustomerRolePersistenceTests" fullname="Nop.Data.Tests.Customers.CustomerRolePersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="4.223585" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1164" name="Can_save_and_load_customerRole" fullname="Nop.Data.Tests.Customers.CustomerRolePersistenceTests.Can_save_and_load_customerRole" runstate="Runnable" result="Passed" duration="2.496463" asserts="8" />
+              <test-case id="1-1165" name="Can_save_and_load_customerRole_with_permissions" fullname="Nop.Data.Tests.Customers.CustomerRolePersistenceTests.Can_save_and_load_customerRole_with_permissions" runstate="Runnable" result="Passed" duration="1.723878" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1158" name="ExternalAuthenticationRecordPersistenceTests" fullname="Nop.Data.Tests.Customers.ExternalAuthenticationRecordPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="2.138848" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1159" name="Can_save_and_load_externalAuthenticationRecord" fullname="Nop.Data.Tests.Customers.ExternalAuthenticationRecordPersistenceTests.Can_save_and_load_externalAuthenticationRecord" runstate="Runnable" result="Passed" duration="2.135046" asserts="8" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1160" name="RewardPointsHistoryPersistenceTests" fullname="Nop.Data.Tests.Customers.RewardPointsHistoryPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="4.961857" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1161" name="Can_save_and_load_rewardPointsHistory" fullname="Nop.Data.Tests.Customers.RewardPointsHistoryPersistenceTests.Can_save_and_load_rewardPointsHistory" runstate="Runnable" result="Passed" duration="2.307536" asserts="8" />
+              <test-case id="1-1162" name="Can_save_and_load_rewardPointsHistory_with_order" fullname="Nop.Data.Tests.Customers.RewardPointsHistoryPersistenceTests.Can_save_and_load_rewardPointsHistory_with_order" runstate="Runnable" result="Passed" duration="2.621235" asserts="3" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1242" name="Directory" fullname="Nop.Data.Tests.Directory" runstate="Runnable" testcasecount="7" result="Passed" duration="10.182074" total="7" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1017" name="CountryPersistenceTests" fullname="Nop.Data.Tests.Directory.CountryPersistenceTests" runstate="Runnable" testcasecount="3" result="Passed" duration="4.662202" total="3" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1018" name="Can_save_and_load_country" fullname="Nop.Data.Tests.Directory.CountryPersistenceTests.Can_save_and_load_country" runstate="Runnable" result="Passed" duration="1.750469" asserts="11" />
+              <test-case id="1-1020" name="Can_save_and_load_country_with_restrictions" fullname="Nop.Data.Tests.Directory.CountryPersistenceTests.Can_save_and_load_country_with_restrictions" runstate="Runnable" result="Passed" duration="1.481733" asserts="5" />
+              <test-case id="1-1019" name="Can_save_and_load_country_with_states" fullname="Nop.Data.Tests.Directory.CountryPersistenceTests.Can_save_and_load_country_with_states" runstate="Runnable" result="Passed" duration="1.419546" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1015" name="CurrencyPersistenceTests" fullname="Nop.Data.Tests.Directory.CurrencyPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.344691" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1016" name="Can_save_and_load_currency" fullname="Nop.Data.Tests.Directory.CurrencyPersistenceTests.Can_save_and_load_currency" runstate="Runnable" result="Passed" duration="1.341714" asserts="11" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1013" name="MeasureDimensionPersistenceTests" fullname="Nop.Data.Tests.Directory.MeasureDimensionPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.191858" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1014" name="Can_save_and_load_measureDimension" fullname="Nop.Data.Tests.Directory.MeasureDimensionPersistenceTests.Can_save_and_load_measureDimension" runstate="Runnable" result="Passed" duration="1.188821" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1011" name="MeasureWeightPersistenceTests" fullname="Nop.Data.Tests.Directory.MeasureWeightPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.711619" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1012" name="Can_save_and_load_measureWeight" fullname="Nop.Data.Tests.Directory.MeasureWeightPersistenceTests.Can_save_and_load_measureWeight" runstate="Runnable" result="Passed" duration="1.699114" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1021" name="StateProvincePersistenceTests" fullname="Nop.Data.Tests.Directory.StateProvincePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.258021" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1022" name="Can_save_and_load_stateProvince" fullname="Nop.Data.Tests.Directory.StateProvincePersistenceTests.Can_save_and_load_stateProvince" runstate="Runnable" result="Passed" duration="1.256087" asserts="7" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1244" name="Discounts" fullname="Nop.Data.Tests.Discounts" runstate="Runnable" testcasecount="6" result="Passed" duration="8.555163" total="6" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1029" name="DiscountPersistenceTests" fullname="Nop.Data.Tests.Discounts.DiscountPersistenceTests" runstate="Runnable" testcasecount="4" result="Passed" duration="5.140818" total="4" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1030" name="Can_save_and_load_discount" fullname="Nop.Data.Tests.Discounts.DiscountPersistenceTests.Can_save_and_load_discount" runstate="Runnable" result="Passed" duration="1.151120" asserts="15" />
+              <test-case id="1-1033" name="Can_save_and_load_discount_with_appliedCategories" fullname="Nop.Data.Tests.Discounts.DiscountPersistenceTests.Can_save_and_load_discount_with_appliedCategories" runstate="Runnable" result="Passed" duration="1.340845" asserts="4" />
+              <test-case id="1-1032" name="Can_save_and_load_discount_with_appliedProducts" fullname="Nop.Data.Tests.Discounts.DiscountPersistenceTests.Can_save_and_load_discount_with_appliedProducts" runstate="Runnable" result="Passed" duration="1.390072" asserts="4" />
+              <test-case id="1-1031" name="Can_save_and_load_discount_with_discountRequirements" fullname="Nop.Data.Tests.Discounts.DiscountPersistenceTests.Can_save_and_load_discount_with_discountRequirements" runstate="Runnable" result="Passed" duration="1.252166" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1027" name="DiscountRequirementPersistenceTests" fullname="Nop.Data.Tests.Discounts.DiscountRequirementPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.565870" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1028" name="Can_save_and_load_discountRequirement" fullname="Nop.Data.Tests.Discounts.DiscountRequirementPersistenceTests.Can_save_and_load_discountRequirement" runstate="Runnable" result="Passed" duration="1.564382" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1025" name="DiscountUsageHistoryPersistenceTests" fullname="Nop.Data.Tests.Discounts.DiscountUsageHistoryPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.845076" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1026" name="Can_save_and_load_discountUsageHistory" fullname="Nop.Data.Tests.Discounts.DiscountUsageHistoryPersistenceTests.Can_save_and_load_discountUsageHistory" runstate="Runnable" result="Passed" duration="1.842069" asserts="4" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1246" name="Forums" fullname="Nop.Data.Tests.Forums" runstate="Runnable" testcasecount="8" result="Passed" duration="10.758695" total="8" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1038" name="ForumGroupPersistenceTests" fullname="Nop.Data.Tests.Forums.ForumGroupPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.337822" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1039" name="Can_save_and_load_forumgroup" fullname="Nop.Data.Tests.Forums.ForumGroupPersistenceTests.Can_save_and_load_forumgroup" runstate="Runnable" result="Passed" duration="1.128694" asserts="5" />
+              <test-case id="1-1040" name="Can_save_and_load_forumgroup_with_forums" fullname="Nop.Data.Tests.Forums.ForumGroupPersistenceTests.Can_save_and_load_forumgroup_with_forums" runstate="Runnable" result="Passed" duration="1.206767" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1041" name="ForumPersistenceTests" fullname="Nop.Data.Tests.Forums.ForumPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.192320" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1042" name="Can_save_and_load_forum" fullname="Nop.Data.Tests.Forums.ForumPersistenceTests.Can_save_and_load_forum" runstate="Runnable" result="Passed" duration="1.190056" asserts="8" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1043" name="ForumPostPersistenceTests" fullname="Nop.Data.Tests.Forums.ForumPostPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.519259" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1044" name="Can_save_and_load_forumpost" fullname="Nop.Data.Tests.Forums.ForumPostPersistenceTests.Can_save_and_load_forumpost" runstate="Runnable" result="Passed" duration="1.518710" asserts="21" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1045" name="ForumSubscriptionPersistenceTests" fullname="Nop.Data.Tests.Forums.ForumSubscriptionPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="3.096865" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1046" name="Can_save_and_load_forum_subscription_forum_subscribed" fullname="Nop.Data.Tests.Forums.ForumSubscriptionPersistenceTests.Can_save_and_load_forum_subscription_forum_subscribed" runstate="Runnable" result="Passed" duration="1.740713" asserts="21" />
+              <test-case id="1-1047" name="Can_save_and_load_forum_subscription_topic_subscribed" fullname="Nop.Data.Tests.Forums.ForumSubscriptionPersistenceTests.Can_save_and_load_forum_subscription_topic_subscribed" runstate="Runnable" result="Passed" duration="1.353878" asserts="21" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1048" name="ForumTopicPersistenceTests" fullname="Nop.Data.Tests.Forums.ForumTopicPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.297025" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1049" name="Can_save_and_load_forumtopic" fullname="Nop.Data.Tests.Forums.ForumTopicPersistenceTests.Can_save_and_load_forumtopic" runstate="Runnable" result="Passed" duration="1.293587" asserts="17" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1050" name="PrivateMessagePersistenceTests" fullname="Nop.Data.Tests.Forums.PrivateMessagePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.309588" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1051" name="Can_save_and_load_privatemessage" fullname="Nop.Data.Tests.Forums.PrivateMessagePersistenceTests.Can_save_and_load_privatemessage" runstate="Runnable" result="Passed" duration="1.308294" asserts="9" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1241" name="Localization" fullname="Nop.Data.Tests.Localization" runstate="Runnable" testcasecount="4" result="Passed" duration="5.334667" total="4" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1008" name="LanguagePersistenceTests" fullname="Nop.Data.Tests.Localization.LanguagePersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.667298" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1009" name="Can_save_and_load_language" fullname="Nop.Data.Tests.Localization.LanguagePersistenceTests.Can_save_and_load_language" runstate="Runnable" result="Passed" duration="1.284915" asserts="10" />
+              <test-case id="1-1010" name="Can_save_and_load_language_with_localeStringResources" fullname="Nop.Data.Tests.Localization.LanguagePersistenceTests.Can_save_and_load_language_with_localeStringResources" runstate="Runnable" result="Passed" duration="1.379043" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1006" name="LocaleStringResourcePersistenceTests" fullname="Nop.Data.Tests.Localization.LocaleStringResourcePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.303018" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1007" name="Can_save_and_load_lst" fullname="Nop.Data.Tests.Localization.LocaleStringResourcePersistenceTests.Can_save_and_load_lst" runstate="Runnable" result="Passed" duration="1.299543" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1004" name="LocalizedPropertyPersistenceTests" fullname="Nop.Data.Tests.Localization.LocalizedPropertyPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.361574" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1005" name="Can_save_and_load_localizedProperty" fullname="Nop.Data.Tests.Localization.LocalizedPropertyPersistenceTests.Can_save_and_load_localizedProperty" runstate="Runnable" result="Passed" duration="1.359721" asserts="7" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1250" name="Logging" fullname="Nop.Data.Tests.Logging" runstate="Runnable" testcasecount="3" result="Passed" duration="3.936437" total="3" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1061" name="ActivityLogPersistenceTests" fullname="Nop.Data.Tests.Logging.ActivityLogPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.299581" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1062" name="Can_save_and_load_activityLogType" fullname="Nop.Data.Tests.Logging.ActivityLogPersistenceTests.Can_save_and_load_activityLogType" runstate="Runnable" result="Passed" duration="1.298429" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1063" name="LogPersistenceTests" fullname="Nop.Data.Tests.Logging.LogPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.634885" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1064" name="Can_save_and_load_log" fullname="Nop.Data.Tests.Logging.LogPersistenceTests.Can_save_and_load_log" runstate="Runnable" result="Passed" duration="1.260673" asserts="8" />
+              <test-case id="1-1065" name="Can_save_and_load_log_with_customer" fullname="Nop.Data.Tests.Logging.LogPersistenceTests.Can_save_and_load_log_with_customer" runstate="Runnable" result="Passed" duration="1.369933" asserts="5" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1245" name="Media" fullname="Nop.Data.Tests.Media" runstate="Runnable" testcasecount="2" result="Passed" duration="2.821182" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1034" name="DownloadPersistenceTests" fullname="Nop.Data.Tests.Media.DownloadPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.185359" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1035" name="Can_save_and_load_download" fullname="Nop.Data.Tests.Media.DownloadPersistenceTests.Can_save_and_load_download" runstate="Runnable" result="Passed" duration="1.183536" asserts="9" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1036" name="PicturePersistenceTests" fullname="Nop.Data.Tests.Media.PicturePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.582676" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1037" name="Can_save_and_load_picture" fullname="Nop.Data.Tests.Media.PicturePersistenceTests.Can_save_and_load_picture" runstate="Runnable" result="Passed" duration="1.545945" asserts="7" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1252" name="Messages" fullname="Nop.Data.Tests.Messages" runstate="Runnable" testcasecount="5" result="Passed" duration="6.995589" total="5" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1069" name="CampaignPersistenceTests" fullname="Nop.Data.Tests.Messages.CampaignPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.463161" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1070" name="Can_save_and_load_campaign" fullname="Nop.Data.Tests.Messages.CampaignPersistenceTests.Can_save_and_load_campaign" runstate="Runnable" result="Passed" duration="1.460785" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1071" name="EmailAccountPersistenceTests" fullname="Nop.Data.Tests.Messages.EmailAccountPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.300940" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1072" name="Can_save_and_load_emailAccount" fullname="Nop.Data.Tests.Messages.EmailAccountPersistenceTests.Can_save_and_load_emailAccount" runstate="Runnable" result="Passed" duration="1.298834" asserts="9" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1073" name="MessageTemplatePersistenceTests" fullname="Nop.Data.Tests.Messages.MessageTemplatePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.360019" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1074" name="Can_save_and_load_messageTemplate" fullname="Nop.Data.Tests.Messages.MessageTemplatePersistenceTests.Can_save_and_load_messageTemplate" runstate="Runnable" result="Passed" duration="1.357016" asserts="9" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1075" name="NewsLetterSubscriptionPersistenceTests" fullname="Nop.Data.Tests.Messages.NewsLetterSubscriptionPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.579497" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1076" name="Can_save_and_load_nls" fullname="Nop.Data.Tests.Messages.NewsLetterSubscriptionPersistenceTests.Can_save_and_load_nls" runstate="Runnable" result="Passed" duration="1.574109" asserts="6" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1077" name="QueuedEmailPersistenceTests" fullname="Nop.Data.Tests.Messages.QueuedEmailPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.285749" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1078" name="Can_save_and_load_queuedEmail" fullname="Nop.Data.Tests.Messages.QueuedEmailPersistenceTests.Can_save_and_load_queuedEmail" runstate="Runnable" result="Passed" duration="1.284468" asserts="21" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1247" name="News" fullname="Nop.Data.Tests.News" runstate="Runnable" testcasecount="2" result="Passed" duration="2.726619" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1052" name="NewsPersistenceTests" fullname="Nop.Data.Tests.News.NewsPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.725756" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1053" name="Can_save_and_load_newsItem" fullname="Nop.Data.Tests.News.NewsPersistenceTests.Can_save_and_load_newsItem" runstate="Runnable" result="Passed" duration="1.272673" asserts="16" />
+              <test-case id="1-1054" name="Can_save_and_load_newsItem_with_comments" fullname="Nop.Data.Tests.News.NewsPersistenceTests.Can_save_and_load_newsItem_with_comments" runstate="Runnable" result="Passed" duration="1.449387" asserts="4" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1260" name="Orders" fullname="Nop.Data.Tests.Orders" runstate="Runnable" testcasecount="26" result="Passed" duration="45.358389" total="26" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1119" name="CheckoutAttributePersistenceTests" fullname="Nop.Data.Tests.Orders.CheckoutAttributePersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.754581" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1120" name="Can_save_and_load_checkoutAttribute" fullname="Nop.Data.Tests.Orders.CheckoutAttributePersistenceTests.Can_save_and_load_checkoutAttribute" runstate="Runnable" result="Passed" duration="1.326389" asserts="15" />
+              <test-case id="1-1121" name="Can_save_and_load_checkoutAttribute_with_values" fullname="Nop.Data.Tests.Orders.CheckoutAttributePersistenceTests.Can_save_and_load_checkoutAttribute_with_values" runstate="Runnable" result="Passed" duration="1.425074" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1122" name="CheckoutAttributeValuePersistenceTests" fullname="Nop.Data.Tests.Orders.CheckoutAttributeValuePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.792373" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1123" name="Can_save_and_load_checkoutAttributeValue" fullname="Nop.Data.Tests.Orders.CheckoutAttributeValuePersistenceTests.Can_save_and_load_checkoutAttributeValue" runstate="Runnable" result="Passed" duration="1.789831" asserts="9" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1136" name="GiftCardPersistenceTests" fullname="Nop.Data.Tests.Orders.GiftCardPersistenceTests" runstate="Runnable" testcasecount="3" result="Passed" duration="4.429970" total="3" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1137" name="Can_save_and_load_giftCard" fullname="Nop.Data.Tests.Orders.GiftCardPersistenceTests.Can_save_and_load_giftCard" runstate="Runnable" result="Passed" duration="1.402110" asserts="12" />
+              <test-case id="1-1139" name="Can_save_and_load_giftCard_with_associatedItem" fullname="Nop.Data.Tests.Orders.GiftCardPersistenceTests.Can_save_and_load_giftCard_with_associatedItem" runstate="Runnable" result="Passed" duration="1.441789" asserts="4" />
+              <test-case id="1-1138" name="Can_save_and_load_giftCard_with_usageHistory" fullname="Nop.Data.Tests.Orders.GiftCardPersistenceTests.Can_save_and_load_giftCard_with_usageHistory" runstate="Runnable" result="Passed" duration="1.582062" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1140" name="GiftCardUsageHistoryPersistenceTests" fullname="Nop.Data.Tests.Orders.GiftCardUsageHistoryPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.598945" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1141" name="Can_save_and_load_giftCardUsageHistory" fullname="Nop.Data.Tests.Orders.GiftCardUsageHistoryPersistenceTests.Can_save_and_load_giftCardUsageHistory" runstate="Runnable" result="Passed" duration="1.597611" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1131" name="OrderItemPersistenceTests" fullname="Nop.Data.Tests.Orders.OrderItemPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="3.386383" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1132" name="Can_save_and_load_orderItem" fullname="Nop.Data.Tests.Orders.OrderItemPersistenceTests.Can_save_and_load_orderItem" runstate="Runnable" result="Passed" duration="1.784585" asserts="19" />
+              <test-case id="1-1133" name="Can_save_and_load_orderItem_with_giftCard" fullname="Nop.Data.Tests.Orders.OrderItemPersistenceTests.Can_save_and_load_orderItem_with_giftCard" runstate="Runnable" result="Passed" duration="1.597024" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1134" name="OrderNotePersistenceTests" fullname="Nop.Data.Tests.Orders.OrderNotePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="2.377120" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1135" name="Can_save_and_load_orderNote" fullname="Nop.Data.Tests.Orders.OrderNotePersistenceTests.Can_save_and_load_orderNote" runstate="Runnable" result="Passed" duration="2.375202" asserts="6" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1142" name="OrderPersistenceTests" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests" runstate="Runnable" testcasecount="8" result="Passed" duration="13.586672" total="8" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1143" name="Can_save_and_load_order" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests.Can_save_and_load_order" runstate="Runnable" result="Passed" duration="1.906307" asserts="53" />
+              <test-case id="1-1146" name="Can_save_and_load_order_with_discountUsageHistory" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests.Can_save_and_load_order_with_discountUsageHistory" runstate="Runnable" result="Passed" duration="1.320594" asserts="5" />
+              <test-case id="1-1147" name="Can_save_and_load_order_with_giftCardUsageHistory" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests.Can_save_and_load_order_with_giftCardUsageHistory" runstate="Runnable" result="Passed" duration="1.247904" asserts="4" />
+              <test-case id="1-1149" name="Can_save_and_load_order_with_orderItems" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests.Can_save_and_load_order_with_orderItems" runstate="Runnable" result="Passed" duration="1.717223" asserts="4" />
+              <test-case id="1-1148" name="Can_save_and_load_order_with_orderNotes" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests.Can_save_and_load_order_with_orderNotes" runstate="Runnable" result="Passed" duration="2.221520" asserts="4" />
+              <test-case id="1-1150" name="Can_save_and_load_order_with_shipments" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests.Can_save_and_load_order_with_shipments" runstate="Runnable" result="Passed" duration="1.895313" asserts="4" />
+              <test-case id="1-1144" name="Can_save_and_load_order_with_shipping_address" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests.Can_save_and_load_order_with_shipping_address" runstate="Runnable" result="Passed" duration="1.582259" asserts="3" />
+              <test-case id="1-1145" name="Can_save_and_load_order_with_usedRewardPoints" fullname="Nop.Data.Tests.Orders.OrderPersistenceTests.Can_save_and_load_order_with_usedRewardPoints" runstate="Runnable" result="Passed" duration="1.636133" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1126" name="RecurringPaymentHistoryPersistenceTests" fullname="Nop.Data.Tests.Orders.RecurringPaymentHistoryPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.925676" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1127" name="Can_save_and_load_recurringPaymentHistory" fullname="Nop.Data.Tests.Orders.RecurringPaymentHistoryPersistenceTests.Can_save_and_load_recurringPaymentHistory" runstate="Runnable" result="Passed" duration="1.924395" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1128" name="RecurringPaymentPersistenceTests" fullname="Nop.Data.Tests.Orders.RecurringPaymentPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="3.402094" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1129" name="Can_save_and_load_recurringPayment" fullname="Nop.Data.Tests.Orders.RecurringPaymentPersistenceTests.Can_save_and_load_recurringPayment" runstate="Runnable" result="Passed" duration="1.710086" asserts="9" />
+              <test-case id="1-1130" name="Can_save_and_load_recurringPayment_with_history" fullname="Nop.Data.Tests.Orders.RecurringPaymentPersistenceTests.Can_save_and_load_recurringPayment_with_history" runstate="Runnable" result="Passed" duration="1.687718" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1117" name="ReturnRequestActionPersistenceTests" fullname="Nop.Data.Tests.Orders.ReturnRequestActionPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="2.858232" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1118" name="Can_save_and_load_returnRequestAction" fullname="Nop.Data.Tests.Orders.ReturnRequestActionPersistenceTests.Can_save_and_load_returnRequestAction" runstate="Runnable" result="Passed" duration="2.841923" asserts="3" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1124" name="ReturnRequestPersistenceTests" fullname="Nop.Data.Tests.Orders.ReturnRequestPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="3.242115" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1125" name="Can_save_and_load_returnRequest" fullname="Nop.Data.Tests.Orders.ReturnRequestPersistenceTests.Can_save_and_load_returnRequest" runstate="Runnable" result="Passed" duration="3.223392" asserts="11" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1113" name="ReturnRequestReasonPersistenceTests" fullname="Nop.Data.Tests.Orders.ReturnRequestReasonPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.713929" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1114" name="Can_save_and_load_returnRequestReason" fullname="Nop.Data.Tests.Orders.ReturnRequestReasonPersistenceTests.Can_save_and_load_returnRequestReason" runstate="Runnable" result="Passed" duration="1.711546" asserts="3" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1115" name="RewardPointHistoryTests" fullname="Nop.Data.Tests.Orders.RewardPointHistoryTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.168078" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1116" name="Can_save_and_load_rewardPointHistory" fullname="Nop.Data.Tests.Orders.RewardPointHistoryTests.Can_save_and_load_rewardPointHistory" runstate="Runnable" result="Passed" duration="1.156499" asserts="8" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1151" name="ShoppingCartItemPeristenceTests" fullname="Nop.Data.Tests.Orders.ShoppingCartItemPeristenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.075754" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1152" name="Can_save_and_load_shoppingCartItem" fullname="Nop.Data.Tests.Orders.ShoppingCartItemPeristenceTests.Can_save_and_load_shoppingCartItem" runstate="Runnable" result="Passed" duration="1.074301" asserts="12" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1249" name="Polls" fullname="Nop.Data.Tests.Polls" runstate="Runnable" testcasecount="3" result="Passed" duration="3.415017" total="3" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1057" name="PollPersistenceTests" fullname="Nop.Data.Tests.Polls.PollPersistenceTests" runstate="Runnable" testcasecount="3" result="Passed" duration="3.414492" total="3" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1058" name="Can_save_and_load_poll" fullname="Nop.Data.Tests.Polls.PollPersistenceTests.Can_save_and_load_poll" runstate="Runnable" result="Passed" duration="1.081570" asserts="10" />
+              <test-case id="1-1060" name="Can_save_and_load_poll_with_answer_and_votingrecord" fullname="Nop.Data.Tests.Polls.PollPersistenceTests.Can_save_and_load_poll_with_answer_and_votingrecord" runstate="Runnable" result="Passed" duration="1.246909" asserts="5" />
+              <test-case id="1-1059" name="Can_save_and_load_poll_with_answers" fullname="Nop.Data.Tests.Polls.PollPersistenceTests.Can_save_and_load_poll_with_answers" runstate="Runnable" result="Passed" duration="1.082642" asserts="6" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1000" name="SchemaTests" fullname="Nop.Data.Tests.SchemaTests" runstate="Runnable" testcasecount="1" result="Passed" duration="0.025909" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-case id="1-1001" name="Can_generate_schema" fullname="Nop.Data.Tests.SchemaTests.Can_generate_schema" runstate="Runnable" result="Passed" duration="0.025357" asserts="1" />
+          </test-suite>
+          <test-suite type="Namespace" id="1-1255" name="Security" fullname="Nop.Data.Tests.Security" runstate="Runnable" testcasecount="3" result="Passed" duration="3.084578" total="3" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1083" name="AclRecordPersistenceTests" fullname="Nop.Data.Tests.Security.AclRecordPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.021685" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1084" name="Can_save_and_load_urlRecord" fullname="Nop.Data.Tests.Security.AclRecordPersistenceTests.Can_save_and_load_urlRecord" runstate="Runnable" result="Passed" duration="1.020289" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1085" name="PermissionRecordPersistenceTests" fullname="Nop.Data.Tests.Security.PermissionRecordPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.061147" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1086" name="Can_save_and_load_permissionRecord" fullname="Nop.Data.Tests.Security.PermissionRecordPersistenceTests.Can_save_and_load_permissionRecord" runstate="Runnable" result="Passed" duration="1.021355" asserts="4" />
+              <test-case id="1-1087" name="Can_save_and_load_permissionRecord_with_customerRoles" fullname="Nop.Data.Tests.Security.PermissionRecordPersistenceTests.Can_save_and_load_permissionRecord_with_customerRoles" runstate="Runnable" result="Passed" duration="1.035865" asserts="4" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1254" name="Seo" fullname="Nop.Data.Tests.Seo" runstate="Runnable" testcasecount="1" result="Passed" duration="1.008733" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1081" name="UrlRecordPersistenceTests" fullname="Nop.Data.Tests.Seo.UrlRecordPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.007873" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1082" name="Can_save_and_load_urlRecord" fullname="Nop.Data.Tests.Seo.UrlRecordPersistenceTests.Can_save_and_load_urlRecord" runstate="Runnable" result="Passed" duration="1.005631" asserts="5" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1259" name="Shipping" fullname="Nop.Data.Tests.Shipping" runstate="Runnable" testcasecount="7" result="Passed" duration="9.252339" total="7" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1101" name="DeliveryDatePersistenceTests" fullname="Nop.Data.Tests.Shipping.DeliveryDatePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.030297" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1102" name="Can_save_and_load_deliveryDate" fullname="Nop.Data.Tests.Shipping.DeliveryDatePersistenceTests.Can_save_and_load_deliveryDate" runstate="Runnable" result="Passed" duration="1.027376" asserts="3" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1105" name="ShipmentItemPersistenceTests" fullname="Nop.Data.Tests.Shipping.ShipmentItemPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.120319" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1106" name="Can_save_and_load_shipmentItem" fullname="Nop.Data.Tests.Shipping.ShipmentItemPersistenceTests.Can_save_and_load_shipmentItem" runstate="Runnable" result="Passed" duration="1.118404" asserts="5" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1107" name="ShipmentPersistenceTests" fullname="Nop.Data.Tests.Shipping.ShipmentPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.326964" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1108" name="Can_save_and_load_shipment" fullname="Nop.Data.Tests.Shipping.ShipmentPersistenceTests.Can_save_and_load_shipment" runstate="Runnable" result="Passed" duration="1.103336" asserts="7" />
+              <test-case id="1-1109" name="Can_save_and_load_shipment_with_items" fullname="Nop.Data.Tests.Shipping.ShipmentPersistenceTests.Can_save_and_load_shipment_with_items" runstate="Runnable" result="Passed" duration="1.218339" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1110" name="ShippingMethodPersistenceTests" fullname="Nop.Data.Tests.Shipping.ShippingMethodPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="3.341208" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1111" name="Can_save_and_load_shippingMethod" fullname="Nop.Data.Tests.Shipping.ShippingMethodPersistenceTests.Can_save_and_load_shippingMethod" runstate="Runnable" result="Passed" duration="1.584630" asserts="4" />
+              <test-case id="1-1112" name="Can_save_and_load_shippingMethod_with_restriction" fullname="Nop.Data.Tests.Shipping.ShippingMethodPersistenceTests.Can_save_and_load_shippingMethod_with_restriction" runstate="Runnable" result="Passed" duration="1.744829" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1103" name="WarehousePersistenceTests" fullname="Nop.Data.Tests.Shipping.WarehousePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.409530" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1104" name="Can_save_and_load_warehouse" fullname="Nop.Data.Tests.Shipping.WarehousePersistenceTests.Can_save_and_load_warehouse" runstate="Runnable" result="Passed" duration="1.395640" asserts="4" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1256" name="Stores" fullname="Nop.Data.Tests.Stores" runstate="Runnable" testcasecount="2" result="Passed" duration="2.079698" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1088" name="StoreMappingPersistenceTests" fullname="Nop.Data.Tests.Stores.StoreMappingPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.113840" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1089" name="Can_save_and_load_storeMapping" fullname="Nop.Data.Tests.Stores.StoreMappingPersistenceTests.Can_save_and_load_storeMapping" runstate="Runnable" result="Passed" duration="1.112458" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1090" name="StorePersistenceTests" fullname="Nop.Data.Tests.Stores.StorePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="0.964139" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1091" name="Can_save_and_load_store" fullname="Nop.Data.Tests.Stores.StorePersistenceTests.Can_save_and_load_store" runstate="Runnable" result="Passed" duration="0.962284" asserts="10" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1248" name="Tasks" fullname="Nop.Data.Tests.Tasks" runstate="Runnable" testcasecount="1" result="Passed" duration="1.202290" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1055" name="ScheduleTaskPersistenceTests" fullname="Nop.Data.Tests.Tasks.ScheduleTaskPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.201538" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1056" name="Can_save_and_load_scheduleTask" fullname="Nop.Data.Tests.Tasks.ScheduleTaskPersistenceTests.Can_save_and_load_scheduleTask" runstate="Runnable" result="Passed" duration="1.200247" asserts="11" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1243" name="Tax" fullname="Nop.Data.Tests.Tax" runstate="Runnable" testcasecount="1" result="Passed" duration="1.120625" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1023" name="TaxCategoryPersistenceTests" fullname="Nop.Data.Tests.Tax.TaxCategoryPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.119805" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1024" name="Can_save_and_load_taxCategory" fullname="Nop.Data.Tests.Tax.TaxCategoryPersistenceTests.Can_save_and_load_taxCategory" runstate="Runnable" result="Passed" duration="1.117927" asserts="3" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1258" name="Topics" fullname="Nop.Data.Tests.Topics" runstate="Runnable" testcasecount="2" result="Passed" duration="2.659657" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1099" name="TopicPersistenceTests" fullname="Nop.Data.Tests.Topics.TopicPersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.066844" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1100" name="Can_save_and_load_topic" fullname="Nop.Data.Tests.Topics.TopicPersistenceTests.Can_save_and_load_topic" runstate="Runnable" result="Passed" duration="1.065007" asserts="19" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1097" name="TopicTemplatePersistenceTests" fullname="Nop.Data.Tests.Topics.TopicTemplatePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.585695" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1098" name="Can_save_and_load_topicTemplate" fullname="Nop.Data.Tests.Topics.TopicTemplatePersistenceTests.Can_save_and_load_topicTemplate" runstate="Runnable" result="Passed" duration="1.556363" asserts="4" />
+            </test-suite>
+          </test-suite>
+          <test-suite type="Namespace" id="1-1257" name="Vendors" fullname="Nop.Data.Tests.Vendors" runstate="Runnable" testcasecount="3" result="Passed" duration="3.148798" total="3" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1092" name="VendorNotePersistenceTests" fullname="Nop.Data.Tests.Vendors.VendorNotePersistenceTests" runstate="Runnable" testcasecount="1" result="Passed" duration="1.113147" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1093" name="Can_save_and_load_vendorNote" fullname="Nop.Data.Tests.Vendors.VendorNotePersistenceTests.Can_save_and_load_vendorNote" runstate="Runnable" result="Passed" duration="1.111957" asserts="4" />
+            </test-suite>
+            <test-suite type="TestFixture" id="1-1094" name="VendorPersistenceTests" fullname="Nop.Data.Tests.Vendors.VendorPersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" duration="2.033973" total="2" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1-1095" name="Can_save_and_load_vendor" fullname="Nop.Data.Tests.Vendors.VendorPersistenceTests.Can_save_and_load_vendor" runstate="Runnable" result="Passed" duration="1.029914" asserts="15" />
+              <test-case id="1-1096" name="Can_save_and_load_vendor_with_vendorNotes" fullname="Nop.Data.Tests.Vendors.VendorPersistenceTests.Can_save_and_load_vendor_with_vendorNotes" runstate="Runnable" result="Passed" duration="1.001347" asserts="4" />
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

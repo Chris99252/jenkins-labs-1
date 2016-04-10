@@ -1149,6 +1149,8 @@
     <Content Include="Content\Roxy_Fileman\lang\it.json" />
     <Content Include="Content\Roxy_Fileman\lang\pl.json" />
     <Content Include="Content\Roxy_Fileman\lang\pt.json" />
+    <None Include="Properties\PublishProfiles\Jenkins1-file.pubxml" />
+    <None Include="Properties\PublishProfiles\Jenkins1-localIIS.pubxml" />
     <None Include="Properties\PublishProfiles\willdevopslbj7hnno6y6o4 - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\willdevopslbj7hnno6y6o4 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

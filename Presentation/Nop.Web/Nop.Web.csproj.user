@@ -5,7 +5,7 @@
     <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
     <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
-    <NameOfLastUsedPublishProfile>Jenkins1-file</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>willdevopslbj7hnno6y6o4 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

@@ -11,9 +11,12 @@ using Nop.Web.Models.Common;
 
 namespace Nop.Web.Controllers
 {
+    /// <summary>
+    /// GitHub WebHook Trigger
+    /// </summary>
     public partial class BackInStockSubscriptionController : BasePublicController
     {
-		#region Fields
+        #region Fields
 
         private readonly IProductService _productService;
         private readonly IWorkContext _workContext;
@@ -22,13 +25,13 @@ namespace Nop.Web.Controllers
         private readonly IBackInStockSubscriptionService _backInStockSubscriptionService;
         private readonly CatalogSettings _catalogSettings;
         private readonly CustomerSettings _customerSettings;
-        
+
         #endregion
 
-		#region Constructors
+        #region Constructors
 
         public BackInStockSubscriptionController(IProductService productService,
-            IWorkContext workContext, 
+            IWorkContext workContext,
             IStoreContext storeContext,
             ILocalizationService localizationService,
             IBackInStockSubscriptionService backInStockSubscriptionService,

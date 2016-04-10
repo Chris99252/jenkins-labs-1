@@ -12,7 +12,7 @@ using Nop.Web.Models.Common;
 namespace Nop.Web.Controllers
 {
     /// <summary>
-    /// GitHub WebHook Trigger 1
+    /// GitHub WebHook Trigger 2
     /// </summary>
     public partial class BackInStockSubscriptionController : BasePublicController
     {

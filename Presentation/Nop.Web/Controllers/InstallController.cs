@@ -19,7 +19,7 @@ using Nop.Web.Models.Install;
 
 namespace Nop.Web.Controllers
 {
-    // Jenkins Test 2
+    // Jenkins Test 3
     public partial class InstallController : BasePublicController
     {
         #region Fields
